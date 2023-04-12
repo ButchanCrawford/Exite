@@ -1,0 +1,19 @@
+/*Navigation*/
+
+.navbar-bg-colour {
+  background-color: rgb(247, 241, 241);
+  color: white;
+  /* height: 70px; */
+}
+
+.nav-container {
+  font-weight: 500;
+}
+
+.navi-center {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Landing*/
