@@ -1,13 +1,25 @@
+.bordertest {
+  border: 3px solid red;
+}
+
+.bordertest1 {
+  border: 1px solid blue;
+}
+
 /*Navigation*/
 
 .navbar-bg-colour {
   background-color: rgb(247, 241, 241);
   color: white;
-  /* height: 70px; */
 }
 
 .nav-container {
-  font-weight: 500;
+}
+
+.brand-textl {
+  font-weight: 900;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navi-center {
@@ -17,3 +29,39 @@
 }
 
 /*Landing*/
+
+.landing-main {
+  display: flex;
+  width: auto;
+  height: 758px;
+}
+
+.landing-m {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+.landing-img {
+  z-index: -1;
+  object-fit: contain;
+}
+
+.landing-text {
+  color: cornsilk;
+  font-size: x-large;
+  margin-top: -700px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* z-index: 1; */
+}
+
+.landing-text-two {
+  color: cornsilk;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+  /* z-index: 2; */
+}

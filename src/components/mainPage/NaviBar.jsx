@@ -38,7 +38,7 @@ function NaviBar() {
 /*
 To fix:
 Navbar too large
-perfectly centger "Exite" and add font decoation
+perfectly center "Exite" and add font decoation
 fix navbar to top
 make navbar blend into background into webpage when scrolling down
 dropdown more options when menu btn is clicked
