@@ -4,30 +4,30 @@ import "../assets/exite.css";
 
 function Landing() {
   return (
-    <Container>
-      <Row className="landing-main bordertest">
-        <Col className="landing-m bordertest1 ">
-          <img
-            className="landing-img bordertest1"
-            src="https://tinyurl.com/yckjvraj"
-            alt="Landing"
-          />
+    // <Container>
+    <Row className="landing-main bordertest">
+      <Col className="landing-m bordertest1 ">
+        <img
+          className="landing-img bordertest1"
+          src="https://tinyurl.com/yckjvraj"
+          alt="Landing"
+        />
 
-          <div className="landing-text">
-            {/* <p className="">
+        <div className="landing-text">
+          {/* <p className="">
               The Vast majorty of the population spends entirely too much time
               connected to technology
             </p> */}
-            <p>Less tech</p>
-            <p>More clarity</p>
+          <p>Less tech</p>
+          <p>More clarity</p>
 
-            <p className="landing-text-two">
-              Take a break from technology and exit to connect with nature
-            </p>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+          <p className="landing-text-two">
+            Take a break from technology and exit to connect with nature
+          </p>
+        </div>
+      </Col>
+    </Row>
+    // </Container>
   );
 }
 

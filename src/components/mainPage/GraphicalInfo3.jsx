@@ -4,12 +4,26 @@ import { Container, Row, Col } from "react-bootstrap";
 function GraphicalInfo3() {
   return (
     <>
-      <Container>
-        <p>Meet Exite</p>
-        <p>Gain clarity of mind like you've never had it before.</p>
-      </Container>
+      <Row className="section-container ">
+        <Col className="section-container-in">
+          <img
+            src="https://tinyurl.com/5n8p7vcm"
+            alt="clarity"
+            className="section-img"
+          />
+
+          <p className="section-text">
+            Gain clarity of mind like you've never had it before.
+          </p>
+        </Col>
+      </Row>
     </>
   );
 }
+/*To do
+
+Nuro style anmations
+
+*/
 
 export default GraphicalInfo3;

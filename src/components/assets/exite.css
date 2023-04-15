@@ -65,3 +65,49 @@
   margin-right: auto;
   /* z-index: 2; */
 }
+
+/*GraphicalInfo general*/
+
+.section-container {
+  display: flex;
+  width: auto;
+  height: 758px;
+}
+.section-container-in {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+.section-img {
+  z-index: -1;
+  object-fit: contain;
+}
+
+.section-text {
+  color: cornsilk;
+  font-size: x-large;
+  margin-top: -700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*GraphicalInfo 1*/
+/*GraphicalInfo 2*/
+/*GraphicalInfo 3*/
+/*GraphicalInfo 5*/
+
+/* Footer*/
+.footer-main {
+  background-color: black;
+  color: white;
+}
+
+.footer-form-div {
+  margin-left: 100px;
+}
+
+.footer-clickable-text {
+  font-size: larger;
+  font-weight: 500;
+}
