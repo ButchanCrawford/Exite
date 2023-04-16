@@ -95,7 +95,42 @@
 /*GraphicalInfo 1*/
 /*GraphicalInfo 2*/
 /*GraphicalInfo 3*/
-/*GraphicalInfo 5*/
+/*GraphicalInfo 4*/
+
+/*News*/
+.news-header {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.news-tile {
+  width: 400px;
+  height: 450px;
+  border: 1px solid gray;
+}
+
+.news-image {
+  width: 400px;
+  height: 250px;
+  border: 1px solid rgb(170, 110, 110);
+}
+
+/* Main-faq*/
+
+.main-faq {
+  background-color: rgb(27, 26, 26);
+}
+
+.faq-header {
+  font-size: x-large;
+  font-weight: 600;
+  color: white;
+}
+
+.faq-main-questions {
+  color: white;
+  cursor: pointer;
+}
 
 /* Footer*/
 .footer-main {

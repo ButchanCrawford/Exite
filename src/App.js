@@ -19,8 +19,8 @@ function App() {
       <GraphicalInfo2 />
       <GraphicalInfo3 />
       <GraphicalInfo4 />
-      {/* <ExiteNews/> */}
-      {/* <MainPageFaq/> */}
+      <ExiteNews />
+      <MainPageFaq />
       <Footer />
     </div>
   );
