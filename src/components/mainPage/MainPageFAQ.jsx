@@ -7,16 +7,22 @@ function MainPageFaq() {
       {/* <Container> */}
       <Row className="main-faq">
         <Col>
-          <div className="faq-header">
-            <p>You might have questions..</p>
-            <p>We have answers.</p>
-          </div>
-          <div className="faq-main-questions">
-            <p>What exactly is Exite</p>
-            <p>How do I get started?</p>
-          </div>
-          <div>
-            <Button>View all FAQs</Button>
+          <div className="faq-mr">
+            <div className="faq-header">
+              <p>You might have questions..</p>
+              <p>We have answers.</p>
+            </div>
+
+            <div className="faq-main-questions mt-4">
+              <p className="faq-question-main">What exactly is Exite?</p>
+              <p className="faq-question-main">How do I get started?</p>
+            </div>
+            <div className="d-flex">
+              <div className="faq-btn mt-4">
+                {" "}
+                <p className="faq-btn-text">View all FAQs</p>
+              </div>
+            </div>
           </div>
           <br />
           <br />

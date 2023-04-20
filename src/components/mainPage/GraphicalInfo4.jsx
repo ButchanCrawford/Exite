@@ -7,6 +7,10 @@ function GraphicalInfo4() {
     <>
       <Row className="section-container">
         <Col className="section-container-in">
+          <div>
+            <p className="section-text-2">Exite is here to make</p>
+            <p className="section-text-2">every life a whole lot better.</p>
+          </div>
           <div className="dis-block">
             <video
               src={videoMain}
@@ -19,10 +23,6 @@ function GraphicalInfo4() {
               //   loop
             ></video>
           </div>
-
-          <p className="section-textw">
-            Exite is here to make every life a whole lot better
-          </p>
         </Col>
       </Row>
     </>

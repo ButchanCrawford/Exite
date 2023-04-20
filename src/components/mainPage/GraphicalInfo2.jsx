@@ -6,16 +6,21 @@ function GraphicalInfo2() {
     <>
       <Row className="section-container ">
         <Col className="section-container-in">
-          <img
-            src="https://tinyurl.com/2k3ffjkk"
-            alt="family camping"
-            className="section-img"
-          />
+          <div>
+            <p className="section-text-2">Disconect from</p>
+            <p className="section-text-2">the burdens of modern society </p>
+            <p className="section-text-3">
+              and reconnect to things that matter the most.
+            </p>
+          </div>
 
-          <p className="section-text">
-            Disconnect from the burdens of modern society and reconnect to
-            things that matter the most.
-          </p>
+          <div className="section-image-tile">
+            <img
+              src="https://tinyurl.com/2k3ffjkk"
+              alt="family camping"
+              className="section-img-1"
+            />
+          </div>
         </Col>
       </Row>
     </>

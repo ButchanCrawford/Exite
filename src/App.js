@@ -12,9 +12,9 @@ import Footer from "./components/mainPage/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <NaviBar />
-      <Landing />
+      {/* <Landing /> */}
       <GraphicalInfo1 />
       <GraphicalInfo2 />
       <GraphicalInfo3 />
