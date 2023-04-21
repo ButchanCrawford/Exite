@@ -6,6 +6,7 @@ function Footer() {
     <>
       {/* <Container> */}
       <Row className="footer-main">
+        <br />
         <Col className="bordertest1-dnone mx-5">
           <p className="stay-con-text">Stay connected</p>
           <div className="form-container">

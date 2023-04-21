@@ -16,7 +16,7 @@ function NaviBar() {
                 <Navbar.Collapse>
                   <Nav className="me-auto">
                     <Nav.Link>Learn More</Nav.Link>
-                    <Nav.Link>Technology</Nav.Link>
+                    <Nav.Link>Careers</Nav.Link>
                     <Nav.Link>The Team</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>

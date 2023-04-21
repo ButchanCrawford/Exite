@@ -2,25 +2,31 @@
 import "./App.css";
 import NaviBar from "./components/mainPage/NaviBar";
 import Landing from "./components/mainPage/Landing";
-import GraphicalInfo1 from "./components/mainPage/GraphicalInfo1";
-import GraphicalInfo2 from "./components/mainPage/GraphicalInfo2";
-import GraphicalInfo3 from "./components/mainPage/GraphicalInfo3";
-import GraphicalInfo4 from "./components/mainPage/GraphicalInfo4";
-import ExiteNews from "./components/mainPage/ExiteNews";
-import MainPageFaq from "./components/mainPage/MainPageFAQ";
+import { Route, Routes } from "react-router-dom";
+import Faq from "./components/Faq";
 import Footer from "./components/mainPage/Footer";
 
 function App() {
   return (
     <div className="">
       <NaviBar />
-      {/* <Landing /> */}
-      <GraphicalInfo1 />
-      <GraphicalInfo2 />
-      <GraphicalInfo3 />
-      <GraphicalInfo4 />
-      <ExiteNews />
-      <MainPageFaq />
+
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        {/* <Route path="/learnmore" element={}/> */}
+        {/* <Route path="/carrers" element={}/> */}
+        {/* <Route path="/Theteam" element={}/> */}
+        {/* <Route path="/blog" element={}/> */}
+        {/* <Route path="/subscription" element={}/> */}
+        {/* <Route path="/about" element={}/>  */}
+        {/* <Route path="/contact" element={}/>  */}
+        {/* <Route path="/press" element={}/>  */}
+        {/* <Route path="/careers" element={}/>  */}
+        <Route path="/faq" element={<Faq />} />
+        {/* <Route path="/whatsnext" element={}/>  */}
+        {/* <Route path="/gooddaypolicy" element={}/>  */}
+      </Routes>
+
       <Footer />
     </div>
   );
