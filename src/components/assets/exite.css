@@ -23,6 +23,7 @@
   font-weight: 900;
   font-size: larger;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
 
 .navi-center {
@@ -166,6 +167,7 @@
   max-width: 100%;
   height: 100%;
   object-fit: fill;
+  border-radius: 15px;
 }
 
 .section-img {
@@ -284,6 +286,243 @@
   font-weight: 500;
 }
 
+/*Career*/
+
+.header-container {
+  min-width: 1024px;
+  height: 500px;
+}
+
+.career-header-text-container {
+}
+
+.career-page-header {
+  font-size: 70px;
+  color: white;
+  margin-top: -600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.career-header-img {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  /* overflow: hidden; */
+  /* z-index: -1; */
+}
+
+.career-section2-header {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.roles-btn {
+  width: 126px;
+  height: 40px;
+  background-color: #7424e4;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.roles-btn-text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.roles-sub-img-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.roles-sub-image {
+  width: 600px;
+  height: 450px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diversity-main-text {
+  font-size: 25px;
+}
+
+.diversity-img-container {
+  width: 410px;
+  height: 380px;
+  overflow: hidden;
+}
+
+.company-awards-title {
+  font-size: 25px;
+}
+
+.company-awards-text {
+}
+
+.award-tile {
+  width: 250px;
+  height: 150px;
+  background-color: black;
+  border-radius: 40px;
+}
+
+.current-roles-section {
+  background-color: #f4eed1;
+}
+
+/*Subscription*/
+
+.sub-card-container {
+  width: 700px;
+  height: 400px;
+  background-color: #050048;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+
+.sub-card-cont-inner {
+  width: 550px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-card-card {
+  height: 250px;
+  width: 170px;
+  border: 5px solid #403c63;
+  border-radius: 10px;
+}
+
+.sub-card-card:hover {
+  transform: scale(1.05);
+  border: 5px solid #4f29d6;
+}
+
+.sub-card-plan {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.sub-card-gb {
+  font-size: larger;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.sub-card-monthly-text {
+  font-size: 15px;
+
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.sub-card-button {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #6137c8;
+  font-size: small;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sub-card-button:hover {
+  background-color: #7c59d1;
+}
+
+.sub-card-li {
+  font-size: small;
+  color: white;
+}
+/*********************/
+
+.flex-plans-text-1 {
+  color: #4f29d6;
+  margin-right: 5pxcd;
+}
+
+.flex-plans-text-2 {
+}
+
+/*Press*/
+
+.press-page-title {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.press-page-statement {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.press-page-header-container {
+  background-color: #dddfe0;
+}
+
+.press-page-body-container {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.press-kit-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.press-tile-container {
+  width: 200px;
+  height: 300px;
+}
+
+.press-tile-image {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.press-tile-text {
+}
+
+.press-tile-kit-link {
+  cursor: pointer;
+  color: #4f29d6;
+  margin-top: 10px;
+}
+
+.press-assets-center {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Footer*/
 .footer-main {
   background-color: black;
@@ -351,9 +590,28 @@
 .footer-clickable-text {
   font-size: larger;
   font-weight: 500;
+  text-decoration: none !important;
 }
 
 .footer-clickable-text-individual:hover {
   color: blue;
   cursor: pointer;
+}
+
+.footer-icons-container {
+  justify-content: space-between;
+  margin-top: -8px;
+}
+.footer-icon {
+  width: 35px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.footer-icon:hover {
+  border-color: #4f29d6;
+}
+
+.footer-tm-container {
+  margin-right: -60px;
 }

@@ -11,7 +11,7 @@ function Landing() {
   return (
     // <Container>
     <>
-      {/* <Row className="landing-main bordertest">
+      <Row className="landing-main bordertest">
         <Col lg={12} className="landing-m bordertest1 ">
           <div>
             <img
@@ -30,7 +30,7 @@ function Landing() {
             </p>
           </div>
         </Col>
-      </Row> */}
+      </Row>
       <GraphicalInfo1 />
       <GraphicalInfo2 />
       <GraphicalInfo3 />

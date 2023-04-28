@@ -1,8 +1,19 @@
 import React from "react";
 import { Navbar, Container, Nav, Button, Row, Col } from "react-bootstrap";
 import "../assets/exite.css";
+import { useNavigate } from "react-router-dom";
 
 function NaviBar() {
+  const navigate = useNavigate();
+
+  function navHome() {
+    navigate("/");
+  }
+
+  function navSubscribe() {
+    navigate("/subscribe");
+  }
+
   return (
     <React.Fragment>
       <Row>
@@ -17,18 +28,22 @@ function NaviBar() {
                   <Nav className="me-auto">
                     <Nav.Link>Learn More</Nav.Link>
                     <Nav.Link>Careers</Nav.Link>
-                    <Nav.Link>The Team</Nav.Link>
+                    <Nav.Link>Faq's</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </div>
               <div className="navi-center">
                 <Navbar.Brand className="">
-                  <p className="brand-textl">Exite</p>
+                  <p className="brand-textl" onClick={navHome}>
+                    Exite
+                  </p>
                 </Navbar.Brand>
               </div>
               <div className="navi-right">
                 <div className="nav-btn">
-                  <p className="nav-btn-text">Menu</p>
+                  <p className="nav-btn-text" onClick={navSubscribe}>
+                    Sign up
+                  </p>
                 </div>
               </div>
 

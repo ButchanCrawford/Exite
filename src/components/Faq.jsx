@@ -15,7 +15,7 @@ function Faq() {
           <div>
             <p>General</p>
             <div>
-              <Accordion defaultActiveKey="0">
+              <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Accordion Item #1</Accordion.Header>
                   <Accordion.Body>
@@ -50,7 +50,7 @@ function Faq() {
             {" "}
             <p>Research</p>{" "}
             <div>
-              <Accordion defaultActiveKey="0">
+              <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Accordion Item #1</Accordion.Header>
                   <Accordion.Body>
@@ -84,7 +84,7 @@ function Faq() {
           <div>
             <p>Subscrption</p>
             <div>
-              <Accordion defaultActiveKey="0">
+              <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Accordion Item #1</Accordion.Header>
                   <Accordion.Body>
@@ -114,6 +114,9 @@ function Faq() {
               </Accordion>
             </div>
           </div>
+          <br />
+          <br />
+          <br />
         </Col>
       </Row>
     </>
